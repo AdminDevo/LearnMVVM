@@ -1,0 +1,23 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'MVC_MVVM_MVP_Demo' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for MVC_MVVM_MVP_Demo
+
+  target 'MVC_MVVM_MVP_DemoTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+ pod 'Alamofire'
+  pod 'MBProgressHUD'
+  pod 'SDWebImage'
+
+  target 'MVC_MVVM_MVP_DemoUITests' do
+    # Pods for testing
+  end
+
+end
